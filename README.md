@@ -25,6 +25,8 @@ Generated histograms are compared with the real one, using Mean Squared Error (M
 
 As input, we used inverse transform sampling to sample data that will have similar histogram as each classes.
 
+---
+
 ## File description
 
 * GAN_for_MoG.ipynb  

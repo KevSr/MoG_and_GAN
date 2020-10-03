@@ -69,10 +69,7 @@ Includes following ppts.
 
 ## References
 <a id="1">[1]</a>  I. J. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville, Y. Bengio. Generative Adversarial Nets. *Adv Neural Inf Process Syst*, 2014, 27.  
-[Github link](https://github.com/goodfeli/adversarial)
-
-<a id="2">[2]</a> M. Pantic, M. Valstar, R. Rademaker, L. Maat, "Web-based database for facial expression analysis," *Proc. 13th ACM Int'l Conf. Multimedia (Multimedia '05)*, pp. 317-321, 2005.
-
-<a id="3">[3]</a> M. G. Calvo, D. Lundqvist, “Facial expressions of emotion (KDEF): Identification under different display-duration conditions,” *Behav Res*, Vol. 40, no. 1, pp. 109–115, 2008.
-
+[Github link](https://github.com/goodfeli/adversarial)  
+<a id="2">[2]</a> M. Pantic, M. Valstar, R. Rademaker, L. Maat, "Web-based database for facial expression analysis," *Proc. 13th ACM Int'l Conf. Multimedia (Multimedia '05)*, pp. 317-321, 2005.  
+<a id="3">[3]</a> M. G. Calvo, D. Lundqvist, “Facial expressions of emotion (KDEF): Identification under different display-duration conditions,” *Behav Res*, Vol. 40, no. 1, pp. 109–115, 2008.  
 <a id="4">[4]</a> L. van der Maaten and G.E. Hinton, “Visualizing High-Dimensional Data Using t-SNE,” *J. Machine Learning Research*, Vol. 9, pp. 2579-2605, 2008.

@@ -2,6 +2,7 @@
 # MoG and GAN
 
 The aim of this project was to find the relationship between input dataset and the performance of GAN[[1]](#1) .  
+
 For the input dataset, two Facial Expression Recognition (FER) datasets are used.
 * MMI [[2]](#2) 
 * KDEF [[3]](#3) 
@@ -9,17 +10,19 @@ For the input dataset, two Facial Expression Recognition (FER) datasets are used
 ## Input dataset
 DIfferent experiments are done with two datasets, in order to find differences between them.
 1. T-SNE [[4]](#4)  is applied to both dataset, in order to seach any differences in distributions of two datasets.
-![T-SNE results](https://github.com/KevSr/MoG_and_GAN/blob/master/Result%20Images/tsne.jpg)
+![T-SNE results](https://github.com/KevSr/MoG_and_GAN/blob/master/Result%20Images/tsne.jpg)  
 Differences were observed.
 
 2. For each class in FER datasets, a historgram is drawn. This is done in order to find differences between the classes of the dataset.
-![Example of the histogram](https://github.com/KevSr/MoG_and_GAN/blob/master/Result%20Images/rgb_MMIsel_KDEF_CK/KDEF_AN.png)
+![Example of the histogram](https://github.com/KevSr/MoG_and_GAN/blob/master/Result%20Images/rgb_MMIsel_KDEF_CK/KDEF_AN.png)  
 Histogram of all classes can be described in terms of Mixture of Gaussians (MoG). Each histogram had different mixture of Gaussian graphs.
 
 ## GAN
 
 GAN is then used to check if the network can reproduce the histograms of the input data. If GAN can reproduce the histogram data, it is also possible to reproduce the image, which has same distribution. Also, it is easier to observe differences between generated and real data with histograms.  
+
 Generated histograms are compared with the real one, using Mean Squared Error (MSE) values.  
+
 As input, we used inverse transform sampling to sample data that will have similar histogram as each classes.
 
 ## File description

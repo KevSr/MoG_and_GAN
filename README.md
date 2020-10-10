@@ -65,6 +65,9 @@ Includes following ppts.
     Summary of results from GAN, including MSE results.
     * Result of 1D GAN for MoG.pptx  
     Final summary of results from GAN, including T-SNE results.
+* **KMMS**  
+Folder containing paper (in .pdf and .pptx) that has been presented in 2020 Summer Conference of Korean Multimedia Society.
+
 
 
 ## References
